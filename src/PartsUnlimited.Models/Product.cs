@@ -10,6 +10,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PartsUnlimited.Models
 {
+    //six change only main
     public class Product
     {
         [Required]
