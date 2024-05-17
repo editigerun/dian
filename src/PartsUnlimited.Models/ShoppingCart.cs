@@ -22,6 +22,7 @@ namespace PartsUnlimited.Models
 
         public static ShoppingCart GetCart(IPartsUnlimitedContext db, HttpContext context)
         {
+            //17/05 10:01 change develope local 
             var cart = new ShoppingCart(db);
             cart.ShoppingCartId = cart.GetCartId(context);
             return cart;
