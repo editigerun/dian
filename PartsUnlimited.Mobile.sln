@@ -12,6 +12,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartsUnlimited.iOS", "src\PartsUnlimited.Mobile\PartsUnlimited.iOS\PartsUnlimited.iOS.csproj", "{09C947B0-C782-4660-8C20-CB7CC612C7BB}"
 EndProject
 Global
+AAA
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
 		Ad-Hoc|ARM = Ad-Hoc|ARM
