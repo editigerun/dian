@@ -19,7 +19,7 @@ namespace PartsUnlimited.Models
         {
             _db = db;
         }
-
+        //17/05 9:58 change from GitHub web 
         public static ShoppingCart GetCart(IPartsUnlimitedContext db, HttpContext context)
         {
             var cart = new ShoppingCart(db);
