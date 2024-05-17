@@ -9,13 +9,16 @@ namespace PartsUnlimited.Models
     //first change
     public class CartItem
     {
-        [Key]
+        [remote change function]
         public int CartItemId { get; set; }
 
         [Required]
         public string CartId { get; set; }
         public int ProductId { get; set; }
         public int Count { get; set; }
+
+        [change function LOCAL]
+
 
         [DataType(DataType.DateTime)]
         public DateTime DateCreated { get; set; }

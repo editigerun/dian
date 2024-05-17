@@ -11,6 +11,7 @@ namespace PartsUnlimited.Models
 {
     public partial class ShoppingCart
     {
+        //17/05 9:56 change in develope
         private readonly IPartsUnlimitedContext _db;
         private string ShoppingCartId { get; set; }
 
