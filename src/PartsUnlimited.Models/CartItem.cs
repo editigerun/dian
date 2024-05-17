@@ -9,7 +9,7 @@ namespace PartsUnlimited.Models
     //first change
     public class CartItem
     {
-        [Key]
+        [remote change function]
         public int CartItemId { get; set; }
 
         [Required]
