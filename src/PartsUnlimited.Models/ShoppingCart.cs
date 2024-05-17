@@ -37,6 +37,7 @@ namespace PartsUnlimited.Models
 
             if (cartItem == null)
             {
+                //17/05 10:03 change from gitHub web in main
                 // Create a new cart item if no cart item exists
                 cartItem = new CartItem
                 {
@@ -73,6 +74,7 @@ namespace PartsUnlimited.Models
                 }
                 else
                 {
+                    //17/05 10:04 change gitHub web
                     _db.CartItems.Remove(cartItem);
                 }
             }
