@@ -4,6 +4,7 @@ Param(
 	[Parameter(Mandatory=$True, Position=2)] [string] $BuildDir,
   [Parameter(Mandatory=$True, Position=3)] [string] $BuildStagingDirectory
 )
+//17/05 10:06 change local in develope
 
 $ErrorActionPreference = "Stop"
 
