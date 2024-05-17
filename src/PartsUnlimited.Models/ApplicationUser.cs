@@ -8,5 +8,6 @@ namespace PartsUnlimited.Models
     public class ApplicationUser : IdentityUser
     {
         public string Name { get; set; }
+        //17/05 9:10 local function change
     }
 }
