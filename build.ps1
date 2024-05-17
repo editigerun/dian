@@ -4,6 +4,8 @@ Param(
 	[Parameter(Mandatory=$True, Position=2)] [string] $BuildDir,
   [Parameter(Mandatory=$True, Position=3)] [string] $BuildStagingDirectory
 )
+//17/05 10:06 change local in develope
+//17_05 10:09 change from gitHub web in main
 
 $ErrorActionPreference = "Stop"
 
