@@ -11,6 +11,7 @@ namespace PartsUnlimited.Models
 {
     public partial class ShoppingCart
     {
+        //17/05 9:56 change in develope
         private readonly IPartsUnlimitedContext _db;
         private string ShoppingCartId { get; set; }
 
@@ -18,9 +19,10 @@ namespace PartsUnlimited.Models
         {
             _db = db;
         }
-
+        //17/05 9:58 change from GitHub web 
         public static ShoppingCart GetCart(IPartsUnlimitedContext db, HttpContext context)
         {
+            //17/05 10:01 change develope local 
             var cart = new ShoppingCart(db);
             cart.ShoppingCartId = cart.GetCartId(context);
             return cart;
@@ -35,6 +37,7 @@ namespace PartsUnlimited.Models
 
             if (cartItem == null)
             {
+                //17/05 10:03 change from gitHub web in main
                 // Create a new cart item if no cart item exists
                 cartItem = new CartItem
                 {
@@ -71,6 +74,7 @@ namespace PartsUnlimited.Models
                 }
                 else
                 {
+                    //17/05 10:04 change gitHub web
                     _db.CartItems.Remove(cartItem);
                 }
             }

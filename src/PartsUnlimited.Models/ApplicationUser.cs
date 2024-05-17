@@ -7,6 +7,8 @@ namespace PartsUnlimited.Models
 {
     public class ApplicationUser : IdentityUser
     {
+        //17/05 9:09 remote function change
         public string Name { get; set; }
+        //17/05 9:10 local function change
     }
 }
