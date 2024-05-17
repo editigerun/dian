@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace PartsUnlimited.Models
 {
+    // 17/05 8:36 develope
     public class Startup
     {
         public IConfiguration Configuration { get; private set; }
